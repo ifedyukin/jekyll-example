@@ -1,0 +1,10 @@
+body {
+	background-repeat: repeat !important;
+	color: #363435 !important;
+}
+
+.footer a{text-decoration: none}
+
+.site-header{display: none}
+
+h1 span{margin-left: 85px}

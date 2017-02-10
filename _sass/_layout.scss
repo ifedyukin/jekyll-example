@@ -1,0 +1,90 @@
+/* Site Footer
+ * ============================================== */
+    .footer {
+        padding-bottom: 3em;
+        margin: auto;
+        font-size: 12px;
+        font-family: Open Sans;
+        color: #959595;
+    }
+
+    .footer.center {
+      text-align: center;
+    }
+
+    .footer.center > * {
+      margin: 0 auto;
+    }
+
+    .footer img {
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        margin-bottom: 3px;
+  }
+
+/* Individual Posts
+ * ============================================== */
+    .page-content {
+        margin-top: 20px;
+        padding: $spacing-unit 0;
+        text-align: justify;
+    }
+
+    .page-heading {
+        font-size: 20px;
+        padding-top: 2px;
+    }
+
+/* Archive
+ * ============================================== */
+    .post-list {
+        margin-left: 0;
+        list-style: none;
+
+        > li {
+            display: block;
+            padding: 0.1em 1.5em;
+        }
+
+    }
+
+    .post-link {
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 1.5em;
+        letter-spacing: -1px;
+        color: #454545;
+        display: block;
+        width: 100%;
+        text-decoration: none;
+
+        @include media-query($on-palm) {
+            font-size: 1.33em;
+        }
+    }
+
+    .post-meta {
+        float: right;
+        padding-top: 8px;
+        font-size: $small-font-size;
+        color: $grey-color-light;
+        text-transform: uppercase;
+    }
+
+/* Post Format
+ * ============================================== */
+    .post-header {
+        margin-bottom: $spacing-unit;
+    }
+
+    .post-title {
+        font-size: 42px;
+        letter-spacing: -1px;
+        line-height: 1;
+    }
+
+    .post-content {
+        margin-bottom: $spacing-unit;
+    }
